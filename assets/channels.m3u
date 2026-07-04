@@ -1,77 +1,141 @@
 #EXTM3U
-# ============================================
-# IPTV Player - Channels Playlist
-# ============================================
-# Instructions:
-# 1. Add your channels below following the format
-# 2. group-title: categorizes channels
-# 3. tvg-logo: channel logo URL (optional)
-# 4. tvg-id: unique channel identifier (optional)
-# 5. Supports .m3u8 and .ts streams
-# ============================================
-
-#EXTINF:-1 tvg-id="AlJazeera.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Al_Jazeera_logo.svg/1200px-Al_Jazeera_logo.svg.png" group-title="الأخبار",Al Jazeera
-https://live-hls-web-aja.getaj.net/AJA/index.m3u8
-
-#EXTINF:-1 tvg-id="BBCWorld.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/1200px-BBC_News_2019.svg.png" group-title="الأخبار",BBC World News
-https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_mobile/pc_hd_abr_v2.m3u8
-
-#EXTINF:-1 tvg-id="France24.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24_logo.svg/1200px-France24_logo.svg.png" group-title="الأخبار",France 24
-https://ythls.armelin.one/channel/UCQfwfsi5VrK8HEJDg5SNg0w.m3u8
-
-#EXTINF:-1 tvg-id="AlArabiya.ae" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Al_Arabiya_logo.svg/1200px-Al_Arabiya_logo.svg.png" group-title="الأخبار",Al Arabiya
-https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sky_News_logo.svg/1200px-Sky_News_logo.svg.png" group-title="الأخبار",Sky News
-https://siloh.pluto.tv/lilo/production/SkyNews/master.m3u8
-
-#EXTINF:-1 tvg-id="NationalGeographic.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/National_Geographic_Channel.svg/1200px-National_Geographic_Channel.svg.png" group-title="الوثائقية",National Geographic
-https://raw.githubusercontent.com/Alstruit/adaptive-streams/main/streams/us/PlutoTVNationalGeographic.us.m3u8
-
-#EXTINF:-1 tvg-id="Discovery.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Discovery_Channel_logo.svg/1200px-Discovery_Channel_logo.svg.png" group-title="الوثائقية",Discovery Channel
-https://raw.githubusercontent.com/Alstruit/adaptive-streams/main/streams/us/PlutoTVDiscovery.us.m3u8
-
-#EXTINF:-1 tvg-id="AnimalPlanet.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Animal_Planet_logo.svg/1200px-Animal_Planet_logo.svg.png" group-title="الوثائقية",Animal Planet
-https://raw.githubusercontent.com/Alstruit/adaptive-streams/main/streams/us/PlutoTVAnimalPlanet.us.m3u8
-
-#EXTINF:-1 tvg-id="BeinSports1.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sports_logo.svg/1200px-Bein_sports_logo.svg.png" group-title="رياضة",Bein Sports 1
-https://livestream.com/accounts/bein1/events/live.m3u8
-
-#EXTINF:-1 tvg-id="BeinSports2.qa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bein_sports_logo.svg/1200px-Bein_sports_logo.svg.png" group-title="رياضة",Bein Sports 2
-https://livestream.com/accounts/bein2/events/live.m3u8
-
-#EXTINF:-1 tvg-id="ESPN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_logo.svg/1200px-ESPN_logo.svg.png" group-title="رياضة",ESPN
-https://raw.githubusercontent.com/Alstruit/adaptive-streams/main/streams/us/PlutoTVESPN.us.m3u8
-
-#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/1200px-Cartoon_Network_2010_logo.svg.png" group-title="أطفال",Cartoon Network
-https://raw.githubusercontent.com/Alstruit/adaptive-streams/main/streams/us/PlutoTVCartoonNetwork.us.m3u8
-
-#EXTINF:-1 tvg-id="DisneyChannel.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Disney_Channel_logo_%282014%29.svg/1200px-Disney_Channel_logo_%282014%29.svg.png" group-title="أطفال",Disney Channel
-https://raw.githubusercontent.com/Alstruit/adaptive-streams/main/streams/us/PlutoTVDisneyChannel.us.m3u8
-
-#EXTINF:-1 tvg-id="Nickelodeon.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Nickelodeon_logo.svg/1200px-Nickelodeon_logo.svg.png" group-title="أطفال",Nickelodeon
-https://raw.githubusercontent.com/Alstruit/adaptive-streams/main/streams/us/PlutoTVNickelodeon.us.m3u8
-
-#EXTINF:-1 tvg-id="MBC1.sa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/MBC1_logo.svg/1200px-MBC1_logo.svg.png" group-title="ترفيه",MBC 1
-https://shls-mbc1na-prod-dub.shahid.net/out/v1/0c3a7e893f8144fa8f62478d4f08e8b5/index.m3u8
-
-#EXTINF:-1 tvg-id="MBC2.sa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/MBC2_logo.svg/1200px-MBC2_logo.svg.png" group-title="ترفيه",MBC 2
-https://shls-mbc2-prod-dub.shahid.net/out/v1/b4b3a5d1b6f64a8f9d8e7c6b5a4f3e2d/index.m3u8
-
-#EXTINF:-1 tvg-id="MBC3.sa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/MBC3_logo.svg/1200px-MBC3_logo.svg.png" group-title="أطفال",MBC 3
-https://shls-mbc3-prod-dub.shahid.net/out/v1/c5d9f7e8b6a54f3e9d8c7b6a5f4e3d2c/index.m3u8
-
-#EXTINF:-1 tvg-id="MBC4.sa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/MBC4_logo.svg/1200px-MBC4_logo.svg.png" group-title="ترفيه",MBC 4
-https://shls-mbc4-prod-dub.shahid.net/out/v1/d6e8f7c9b5a44f3e8d7c6b5a4f3e2d1c/index.m3u8
-
-#EXTINF:-1 tvg-id="RotanaCinema.sa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Rotana_Cinema_logo.svg/1200px-Rotana_Cinema_logo.svg.png" group-title="سينما",Rotana Cinema
-https://shls-rotanacinema-prod-dub.shahid.net/out/v1/a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7/index.m3u8
-
-#EXTINF:-1 tvg-id="RotanaAflam.sa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Rotana_Aflam_logo.svg/1200px-Rotana_Aflam_logo.svg.png" group-title="سينما",Rotana Aflam
-https://shls-rotanaaflam-prod-dub.shahid.net/out/v1/b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8/index.m3u8
-
-#EXTINF:-1 tvg-id="TestChannel" group-title="تجريبية",Test Stream (TS)
-https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
-
-#EXTINF:-1 tvg-id="BigBuckBunny" group-title="تجريبية",Big Buck Bunny
-https://test-streams.mux.dev/test_001/stream.m3u8
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",-• ✬● AR | BEIN SPORTS MAX  | AR ●✬•-
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465986&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 1 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461659&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 1
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461666&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 1 4K
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461667&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 1 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461671&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 2 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461660&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 2
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461665&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 2 4K
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461668&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 2 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461672&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 3 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461661&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 3
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461664&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 3 4K
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461669&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 3 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465793&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 4 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461662&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 4
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461663&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 4 4K
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461670&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 4 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=461674&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 5 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466111&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 5 4K
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466110&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 5
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466109&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 5 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466112&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 6 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466115&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 6 4K
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466114&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 6
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466113&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 6 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466116&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",-• ✬● AR | BEIN SPORTS MAX BKP | AR ●✬•-
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465987&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | BEIN SPORTS MAX 1
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466128&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | BEIN SPORTS MAX 1 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466129&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | BEIN SPORTS MAX 1 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466127&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | BEIN SPORTS MAX 2
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466125&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | BEIN SPORTS MAX 2 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466126&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | BEIN SPORTS MAX 2 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466124&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | BEIN SPORTS MAX 3
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466122&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | BEIN SPORTS MAX 3 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466123&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | BEIN SPORTS MAX 3 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466121&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | BEIN SPORTS MAX 4
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466119&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | BEIN SPORTS MAX 4 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466120&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | BEIN SPORTS MAX 4 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=466118&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",-• ✬● AR | BEIN SPORTS MAX BKP | AR ●✬•-
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465988&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 1 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465985&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 1 FHD HEVC
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465984&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 1 HD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465983&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 1 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465982&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 2 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465981&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 2 FHD HEVC
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465980&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 2 HD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465979&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 2 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465978&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 3 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465977&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 3 FHD HEVC
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465976&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 3 HD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465975&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 3 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465974&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 4 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465973&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 4 FHD HEVC
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465972&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 4 HD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465971&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 4 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465970&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 5 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465969&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 5 FHD HEVC
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465968&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 5 HD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465967&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 5 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465966&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 6 FHD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465965&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 6 FHD HEVC
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465964&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 6 HD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465963&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 6 SD
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465962&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 1 FHD [F]
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465961&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 1 HEVC [F]
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465960&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 1 HD [F]
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465959&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 1 [F]
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465958&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 2 FHD [F]
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465957&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 2 HEVC [F]
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465956&extension=ts
+#EXTINF:-1 group-title="ⓣⓥ ║  BEIN SPORTS MAX",AR | beIN SPORTS MAX 2 HD [F]
+http://4kpro2.com/play/live.php?mac=00:1A:79:70:9D:14&stream=465955&extension=ts
